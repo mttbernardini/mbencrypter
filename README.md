@@ -1,13 +1,13 @@
-| Symmetric Encryption Algorithm by Mattyw&MeBeiM |
----------------------------------------------------
+# Symmetric Encryption Algorithm by Mattyw&MeBeiM
 
-Version: 2.0
+*Version: 2.0*
 
 ___________________________________________________________________________________________
 
 SYNTAX:
 
-usage: MBencrypter [-h] (-e | -d) [-k <string>] [-i <path>] [-o [<path>]] [-hex] [-v] [-q] [--version]
+```
+usage: mbencrypter [-h] (-e | -d) [-k <string>] [-i <path>] [-o [<path>]] [-hex] [-v] [-q] [--version]
 
 This program will help you encrypting or decrypting
 some data or a file using MB's algorithm.
@@ -31,24 +31,24 @@ optional arguments:
   -v           run in verbose mode.
   -q           don't log progress status.
   --version    show program's version number and exit
+```
 
 
-
-Algorithm v2.0:
+## Algorithm v2.0: ##
 
 - Input data is splitted in chunks of max 20kiB
 
-===== Per-Byte XOR encoding =====
+### Per-Byte XOR encoding ###
 - If the key is shorter than data, it will be repeated until the end of the data.
 - If the key is longer than the data, the key will be XORed against itself, to make it fit with the data.
 - Each byte of the data is then XORed with each byte of the key.
 
-===== Octal Mixing Encoding, by MeBeiM =====
+### Octal Mixing Encoding, by MeBeiM ###
 - The key is converted in an octal array.
 - Each pair of numbers in the array indicate to swap the corrispective nth bits of each byte of the data.
 - A longer key makes the algorithm more effective.
 
 ____________________________________________________________________________________________
 
-(c) Matteo Bernardini 2015
-(c) Marco Bonelli 2015
+*(c) Matteo Bernardini 2015*
+*(c) Marco Bonelli 2015*
