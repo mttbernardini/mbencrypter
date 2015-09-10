@@ -50,6 +50,4 @@ optional arguments:
 
 ____________________________________________________________________________________________
 
-*(c) Matteo Bernardini 2015*
-
-*(c) Marco Bonelli 2015*
+*(c) Matteo Bernardini & Marco Bonelli, 2015*
