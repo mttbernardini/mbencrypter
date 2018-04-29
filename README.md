@@ -1,5 +1,7 @@
 # Symmetric Encryption Algorithm by Mattyw&MeBeiM
 
+*NB: this project has been discontinued and is now superseded by [`mbc`][mbc-link].*
+
 *Version: 2.0*
 
 ___________________________________________________________________________________________
@@ -50,4 +52,7 @@ optional arguments:
 
 ____________________________________________________________________________________________
 
-*(c) Matteo Bernardini & Marco Bonelli, 2015*
+*Copyright © 2015 Matteo Bernardini & Marco Bonelli*
+
+
+[mbc-link]: https://github.com/mttbernardini/mbc
